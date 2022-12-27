@@ -1,0 +1,9 @@
+# private files
+.kaggle
+
+# competitions dir
+competitions/
+
+# poetry
+poetry.lock
+pyproject.toml
