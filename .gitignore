@@ -7,3 +7,7 @@ competitions/
 # poetry
 poetry.lock
 pyproject.toml
+
+# add kaggle utils
+kaggle_utils/
+kaggle_nlp_utils/
