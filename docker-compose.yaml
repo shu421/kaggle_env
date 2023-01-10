@@ -5,9 +5,6 @@ services:
     volumes:
       - /home/shugo/kaggle/competitions/LECR:/home/working
     working_dir: /home/working
-    # ports:
-    #   - 8888:8888
-    # command: jupyter notebook --ip=0.0.0.0 --allow-root --no-browser
     deploy:
       resources:
         reservations:
