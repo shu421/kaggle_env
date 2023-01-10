@@ -9,4 +9,4 @@ poetry.lock
 pyproject.toml
 
 # add kaggle utils
-kaggle_shu421/
+kagglib/
