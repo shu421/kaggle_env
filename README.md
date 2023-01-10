@@ -1,4 +1,4 @@
-# Kaggle用テンプレートリポジトリ
+# Kaggle用GPU環境構築リポジトリ
 
 - dockerによる環境構築
 1. competitions/にコンペのディレクトリを作成する
