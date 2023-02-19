@@ -5,5 +5,5 @@
 2. Dockerfileのパスをコンペディレクトリに変更
 3. 下記のコマンドによってコンテナをbuild
 ```
-docker-compose up -d
+docker compose up -d
 ```
