@@ -1,9 +1,10 @@
 version: "3"
 services:
-  lecr:
+  psp:
     build: .
+    shm_size: "2gb"
     volumes:
-      - /home/shugo/kaggle/competitions/LECR:/home/working
+      - /home/shugo/kaggle/competitions/psp:/home/working
     working_dir: /home/working
     deploy:
       resources:
