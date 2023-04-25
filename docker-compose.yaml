@@ -1,0 +1,17 @@
+version: "3"
+services:
+  psp:
+    build:
+      context: /home/shugo/kaggle/
+      dockerfile: /home/shugo/kaggle/kaggle_env/Dockerfile
+    shm_size: "2gb"
+    volumes:
+      - /home/shugo/kaggle/competitions/psp:/home/working
+    working_dir: /home/working
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [ gpu ]
