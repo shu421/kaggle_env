@@ -1,12 +1,12 @@
 version: "3"
 services:
-  psp:
+  commonlit2:
     build:
       context: /home/shugo/kaggle/
       dockerfile: /home/shugo/kaggle/kaggle_env/Dockerfile
     shm_size: "2gb"
     volumes:
-      - /home/shugo/kaggle/competitions/psp:/home/working
+      - /home/shugo/kaggle/competitions/commonlit2:/home/working
     working_dir: /home/working
     deploy:
       resources:
