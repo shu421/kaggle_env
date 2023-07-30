@@ -5,8 +5,10 @@ services:
       context: /home/shugo/kaggle/
       dockerfile: /home/shugo/kaggle/kaggle_env/Dockerfile
     shm_size: "2gb"
+    tty: true
     volumes:
       - /home/shugo/kaggle/competitions/commonlit2:/home/working
+      - /home/shugo/kaggle/kagglib:/home/working/kagglib
     working_dir: /home/working
     deploy:
       resources:
