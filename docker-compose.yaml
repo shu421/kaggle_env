@@ -10,6 +10,10 @@ services:
       - /home/shugo/kaggle/competitions/commonlit2:/home/working
       - /home/shugo/kaggle/kagglib:/home/working/kagglib
     working_dir: /home/working
+    networks:
+      - default
+    ports:
+      - 8888:8888
     deploy:
       resources:
         reservations:
